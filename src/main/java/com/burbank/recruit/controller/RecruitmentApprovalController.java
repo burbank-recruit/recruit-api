@@ -38,7 +38,7 @@ public class RecruitmentApprovalController {
         Message msg = new MimeMessage(session);
         msg.setFrom(new InternetAddress("tutorialspoint@gmail.com", false));
 
-        msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("chaithra.ramachandran@working-age.digital.dwp.gov.uk"));
+        msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("joe.chapman@working-age.digital.dwp.gov.uk"));
         msg.setSubject("Recruitment Request Approval");
         msg.setContent("Tutorials point email", "text/html");
         msg.setSentDate(new Date());
